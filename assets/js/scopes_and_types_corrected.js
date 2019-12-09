@@ -73,8 +73,8 @@
      */
     function _main() {
         // publish module and a function
-        window.global = {} || window.global;
-        window.global.log = _log;
+        window.tools = {} || window.tools;
+        window.tools.log = _log;
 
         // Initialize variables
         myNumber = 42;
